@@ -1,0 +1,24 @@
+// Colors
+$wenge: #5d576b;
+$misty-rose: #f1dede;
+$eggplant: #6b3449;
+$ultra-violet: #68578e;
+$puce: #cc94a9;
+$african-violet: #9e90bb;
+
+$primay-color: $misty-rose;
+$secondary-color: $wenge;
+
+// Typography
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+$base-font: 'Onest', sans-serif;
+$text-weight-thin: 100;
+$text-weight-extra-light: 200;
+$text-weight-light: 300;
+$text-weight-regular: 400;
+$text-weight-medium: 500;
+$text-weight-semibold: 600;
+$text-weight-bold: 700;
+$text-weight-extra-bold: 800;
+$text-weight-black: 900;

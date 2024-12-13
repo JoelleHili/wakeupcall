@@ -1,0 +1,56 @@
+body {
+  background-color: $wenge;
+  padding: 0 8px;
+}
+
+.home {
+  &__welcome {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+
+  &__content{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    height: auto;
+  }
+
+  &__divider{
+    background-color: $misty-rose;
+    color: $misty-rose;
+    width: 1px;
+    height: auto;
+  }
+}
+
+.welcome__container {
+  display: flex;
+  align-items: center;
+  color: $misty-rose;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+
+.welcome__text {
+  margin-left: 8px;
+  font-family: $base-font;
+  font-weight: $text-weight-regular;
+  font-size: 20px;
+}
+
+.logout__button {
+  background-color: $misty-rose;
+  color: $wenge;
+  font-family: $base-font;
+  font-weight: $text-weight-regular;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+
+.logout__icon {
+  margin-left: 8px;
+}

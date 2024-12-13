@@ -1,0 +1,56 @@
+@import "../../Styles/variables.scss";
+
+
+$base: "calendar-day";
+
+.#{$base} {
+  &__body {
+    outline: 1px solid $misty-rose;
+    outline-offset: -1px;
+    height: 96px;
+    background-color: $wenge;
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__selected {
+    background-color: $eggplant;
+  }
+
+  &__different-month {
+    background-color: darken($color: $wenge, $amount: 20%);
+  }
+
+  &__number {
+    font-family: $base-font;
+    font-weight: $text-weight-regular;
+    font-size: 20px;
+    color: $misty-rose;
+    text-align: center;
+
+    &.#{$base}__today {
+      position: relative;
+      text-decoration: $misty-rose underline;
+      text-underline-offset: 4px;
+    }
+  }
+
+  &__event {
+    background-color: $misty-rose;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $wenge;
+    margin-top: 16px;
+    width: 100%;
+    padding: 4px 0;
+    font-family: $base-font;
+    font-weight: $text-weight-black;
+    font-size: 12px;
+  }
+}
